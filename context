@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Présentation</title>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1440"
+     height="577"
+     viewBox="0 0 1440 577">
+
+    <rect width="1440" height="577" fill="#ffffff"/>
+
+    <!-- HEADER -->
+    <g id="En-tête">
+
+        <line x1="0" y1="72.5" x2="1440" y2="72.5"
+              stroke="#dde3ec" stroke-width="1"/>
+
+        <text x="194" y="43.27"
+              font-family="Arial" font-size="20"
+              font-weight="700" fill="#1c2333">
+            First page
+        </text>
+
+        <!-- LINK 1 -->
+        <a href="index.html">
+            <text x="838" y="41"
+                  font-family="Arial" font-size="16"
+                  fill="#2f5bea">Présentation</text>
+        </a>
+
+        <!-- LINK 2 -->
+        <a href="about.html">
+            <text x="965" y="41"
+                  font-family="Arial" font-size="16"
+                  fill="#5b6478">Compétences</text>
+        </a>
+
+        <!-- LINK 3 -->
+        <a href="projects.html">
+            <text x="1102" y="41"
+                  font-family="Arial" font-size="16"
+                  fill="#5b6478">Projets</text>
+        </a>
+
+        <!-- LINK 4 -->
+        <a href="contact.html">
+            <text x="1186" y="41"
+                  font-family="Arial" font-size="16"
+                  fill="#5b6478">Contact</text>
+        </a>
+
+    </g>
+
+    <!-- PRESENTATION -->
+    <g id="Présentation">
+
+        <text x="194" y="188"
+              font-family="Arial" font-size="17"
+              font-weight="600" fill="#2f5bea">
+            Bonjour, je suis
+        </text>
+
+        <text x="194" y="257"
+              font-family="Arial" font-size="56"
+              font-weight="700" fill="#1c2333">
+            HAFSSA FATTATI
+        </text>
+
+        <text x="194" y="306"
+              font-family="Arial" font-size="24"
+              fill="#5b6478">
+            Apprenant développeur web
+        </text>
+
+        <text x="194" y="360"
+              font-family="Arial" font-size="17"
+              fill="#1c2333">
+            Écrivez ici quelques lignes pour vous présenter :
+        </text>
+
+        <text x="194" y="388"
+              font-family="Arial" font-size="17"
+              fill="#1c2333">
+            qui vous êtes et les projets qui vous intéressent.
+        </text>
+
+        <!-- PROJECT BUTTON -->
+        <a href="projects.html">
+            <rect x="194" y="428" width="181"
+                  height="54" rx="10" fill="#2f5bea"/>
+
+            <text x="222" y="460"
+                  font-family="Arial" font-size="16"
+                  font-weight="600" fill="#ffffff">
+                Voir mes projets
+            </text>
+        </a>
+
+        <!-- PHOTO ON THE RIGHT -->
+        <defs>
+            <clipPath id="photoCircle">
+                <circle cx="1106" cy="325" r="140"/>
+            </clipPath>
+        </defs>
+
+        <circle cx="1106" cy="325" r="140" fill="#dde3ec"/>
+
+        <image href="photo.jpg"
+               x="966" y="185"
+               width="280" height="280"
+               preserveAspectRatio="xMidYMid slice"
+               clip-path="url(#photoCircle)"/>
+
+    </g>
+
+</svg>
+
+</body>
+</html>
